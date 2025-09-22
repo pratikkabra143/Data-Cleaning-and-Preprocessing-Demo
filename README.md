@@ -26,6 +26,7 @@ How to regenerate
 1. Create and activate a venv, then install requirements (PowerShell):
     python -m venv .netflix_env
     .\.netflix_env\Scripts\Activate.ps1
+    python -m pip install ipykernel
 
 2. Open and run `data_cleaning_and_preprocessing.ipynb`. The notebook saves `netflix_titles_cleaned.csv`.
 
